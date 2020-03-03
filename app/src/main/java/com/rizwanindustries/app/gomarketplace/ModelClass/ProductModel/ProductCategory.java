@@ -1,4 +1,4 @@
-package com.rizwanindustries.app.gomarketplace.ModelClass;
+package com.rizwanindustries.app.gomarketplace.ModelClass.ProductModel;
 
 import android.os.Parcel;
 import android.os.Parcelable;

@@ -2,14 +2,11 @@ package com.rizwanindustries.app.gomarketplace;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 import android.util.Log;
-import android.view.LayoutInflater;
-import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -20,10 +17,8 @@ import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 import com.rizwanindustries.app.gomarketplace.AdapterClass.AdapterRv;
 import com.rizwanindustries.app.gomarketplace.AdapterClass.AdvertiseAdapter;
-import com.rizwanindustries.app.gomarketplace.AdapterClass.SlideImageProductAdapter;
 import com.rizwanindustries.app.gomarketplace.ModelClass.AdvertisePager;
-import com.rizwanindustries.app.gomarketplace.ModelClass.Product;
-import com.rizwanindustries.app.gomarketplace.ModelClass.SlideImageProduct;
+import com.rizwanindustries.app.gomarketplace.ModelClass.ProductModel.Product;
 
 import org.json.JSONArray;
 import org.json.JSONException;

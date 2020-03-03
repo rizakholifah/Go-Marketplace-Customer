@@ -6,14 +6,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
-import com.bumptech.glide.Glide;
 import com.rizwanindustries.app.gomarketplace.ModelClass.AdvertisePager;
-import com.rizwanindustries.app.gomarketplace.ModelClass.Product;
+import com.rizwanindustries.app.gomarketplace.ModelClass.ProductModel.Product;
 import com.rizwanindustries.app.gomarketplace.R;
 
 import java.util.ArrayList;
